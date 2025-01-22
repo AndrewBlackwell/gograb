@@ -99,15 +99,15 @@ Example with proxy enabled:
 | ----------------- | ---------- | -------------- | -------- |
 | `http://proxy...` | `file.zip` | `1.5MB/s`      | `10m30s` |
 
-Why Use dl?
+Why Use gograb?
 
-dl was built to address the unique challenges of downloading large files for modern workflows:
+gograb was built to address the unique challenges of downloading large files for modern workflows:
 
 Use Case: Machine Learning Workflows
 
 Machine learning practitioners often need to download pre-trained models, large datasets, or archives from unreliable sources. For example:
 
-dl https://storage.googleapis.com/models/bert-large.tar.gz https://datasets.example.com/imagenet.zip
+gograb https://storage.googleapis.com/models/bert-large.tar.gz https://datasets.example.com/imagenet.zip
 
 ## Performance
 
@@ -115,4 +115,4 @@ dl https://storage.googleapis.com/models/bert-large.tar.gz https://datasets.exam
 | -------- | -------------------------- | ----------------------- | ------------------- | -------------- |
 | `wget`   | Moderate                   | High                    | Partial Support     | Limited        |
 | `curl`   | Moderate                   | High                    | Manual Setup        | Good           |
-| **`dl`** | **High**                   | **High**                | **Seamless**        | **Excellent**  |
+| **`gograb`** | **High**                   | **High**                | **Seamless**        | **Excellent**  |
