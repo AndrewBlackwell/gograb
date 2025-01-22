@@ -59,9 +59,9 @@ Example output:
 
 Start downloading a large file, interrupt it, and resume from where it left off:
 
-1. Start the download using `dl https://example.com/largefile.tar.gz`
+1. Start the download using `gograb https://example.com/largefile.tar.gz`
 2. Interrupt the download (e.g., pressing Ctrl+C)
-3. Resume the download using `dl https://example.com/largefile.tar.gz`
+3. Resume the download using `gograb https://example.com/largefile.tar.gz`
 
 | File Name          | Size | Progress Before Interrupt | Progress After Resume  | ETA     | Speed     |
 | ------------------ | ---- | ------------------------- | ---------------------- | ------- | --------- |
